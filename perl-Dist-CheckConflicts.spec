@@ -3,7 +3,7 @@
 
 Name:		perl-Dist-CheckConflicts
 Version:	0.06
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:	Declare version conflicts for your dist
 Group:		Development/Libraries
 License:	GPL+ or Artistic
@@ -78,6 +78,9 @@ rm -rf %{buildroot}
 %{_mandir}/man3/Dist::CheckConflicts.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.06-2
+- Mass rebuild 2013-12-27
+
 * Sat Jun 22 2013 Paul Howarth <paul@city-fan.org> - 0.06-1
 - Update to 0.06
   - Add optional runtime conflict warnings
